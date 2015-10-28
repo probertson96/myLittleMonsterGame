@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="85" id="it4-6Y-M81"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="pUy-pc-pHJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="pUy-pc-pHJ" customClass="MonsterImage" customModule="myLittleMonster" customModuleProvider="target">
                                 <rect key="frame" x="123" y="133" width="500" height="400"/>
                                 <animations/>
                                 <constraints>
@@ -171,27 +171,25 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="aEP-cI-rwX"/>
-                                <exclude reference="CXb-6C-y2k"/>
-                                <exclude reference="RuI-ea-2jH"/>
                                 <exclude reference="Wbh-qX-Akk"/>
                                 <exclude reference="d9s-11-AOo"/>
+                                <exclude reference="aEP-cI-rwX"/>
                                 <exclude reference="UmC-Ud-dda"/>
                                 <exclude reference="sVq-ej-agF"/>
-                                <exclude reference="Div-lk-9uw"/>
-                                <exclude reference="uGI-C7-hpN"/>
                                 <exclude reference="75G-5A-0CH"/>
                                 <exclude reference="Rt0-Bg-wZu"/>
                                 <exclude reference="UjQ-SZ-fQ3"/>
                                 <exclude reference="gtF-hQ-Hyh"/>
                                 <exclude reference="hyb-0X-fHc"/>
                                 <exclude reference="zYO-OT-X6H"/>
+                                <exclude reference="CXb-6C-y2k"/>
+                                <exclude reference="RuI-ea-2jH"/>
+                                <exclude reference="Div-lk-9uw"/>
+                                <exclude reference="uGI-C7-hpN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <include reference="CXb-6C-y2k"/>
-                                <exclude reference="RuI-ea-2jH"/>
                                 <include reference="Wbh-qX-Akk"/>
                                 <include reference="d9s-11-AOo"/>
                                 <exclude reference="hD7-Ja-jf5"/>
@@ -200,14 +198,16 @@
                                 <include reference="UmC-Ud-dda"/>
                                 <exclude reference="fgw-Aq-19A"/>
                                 <include reference="sVq-ej-agF"/>
-                                <include reference="Div-lk-9uw"/>
-                                <include reference="uGI-C7-hpN"/>
                                 <exclude reference="Dy4-7u-obk"/>
                                 <exclude reference="Rt0-Bg-wZu"/>
                                 <include reference="UjQ-SZ-fQ3"/>
                                 <exclude reference="dba-Dj-Ebb"/>
                                 <exclude reference="hyb-0X-fHc"/>
                                 <exclude reference="zYO-OT-X6H"/>
+                                <include reference="CXb-6C-y2k"/>
+                                <exclude reference="RuI-ea-2jH"/>
+                                <include reference="Div-lk-9uw"/>
+                                <include reference="uGI-C7-hpN"/>
                             </mask>
                         </variation>
                     </view>
